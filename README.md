@@ -8,7 +8,7 @@ This repository holds all code and instructions to reproduce the figures in “[
 
 | Figure | Preview                              | Source Notebook                                 |
 |--------|--------------------------------------|-------------------------------------------------|
-| Fig. 2  | ![Fig1](figures/figure2.png)         | [reproduce_fig2](Notebooks/sampled_mean_and_variance.ipynb) |
+| Fig. 2  | <img src="figures/figure2.png" width="200"/>        | [reproduce_fig2](Notebooks/sampled_mean_and_variance.ipynb) |
 
 
 ---
