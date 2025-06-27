@@ -54,3 +54,4 @@ validphys rb_runcard.yaml
 ```
 
 
+<img src="../figures/figure9.png" width="300"/> 
