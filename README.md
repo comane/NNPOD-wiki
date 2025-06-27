@@ -23,6 +23,7 @@ To do so you can follow the instructions on https://github.com/HEP-PBSP/wmin-mod
 | Fig. 3 right | <img src="figures/figure3_right.png" width="200" /> | [reproduce_fig3_r](notebooks/generalisation.ipynb) |
 | Fig. 4 | | [reproduce_fig4](notebooks/completeness.ipynb) |
 | Fig. 5 | | [reproduce_fig5](notebooks/generalisation.ipynb) | 
+| Fig. 3 | <img src="figures/figure7.png" width="200" /> | [reproduce_fig7](section5) |
 
 ---
 
