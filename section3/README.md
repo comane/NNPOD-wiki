@@ -24,7 +24,9 @@ of the original parametrisation that was used to produce the POD basis; this ess
 tests how closely the linear POD parametrisation approximates the original, generally non-linear, parametrisation. 
 
 In Figure 3 and 4 of the paper we show the performance of the POD basis.
-This [completeness](../notebooks/completeness.ipynb) contains the material to reproduce these results.
+This [completeness notebook](../notebooks/completeness.ipynb) contains the material to reproduce these results.
+
+<img src="../figures/figure3_l.png" width="300"/> 
 
 
 **Generalisation** is defined as the ability of the basis to
@@ -33,7 +35,7 @@ still satisfies all the theoretical constraints that a PDF replica should have. 
 PDF space was sufficiently broad as to be able to describe many possible PDFs, then the
 POD reduction should inherit this quality too.
 
-This [generalisation](../notebooks/generalisation.ipynb) contains the material to reproduce these results.
+This [generalisation notebook](../notebooks/generalisation.ipynb) contains the material to reproduce these results.
 
-
+<img src="../figures/figure3_r.png" width="300"/> 
 

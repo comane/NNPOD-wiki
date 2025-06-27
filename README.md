@@ -1,6 +1,7 @@
 # A linear PDF model for robust Bayesian inference
 
-This repository holds all code and instructions to reproduce the results and figures of “[My Paper Title](link-to-published-paper)”.
+This repository holds all code and instructions to reproduce the numerical results and 
+figures of “[My Paper Title](link-to-published-paper)”.
 
 
 ## Getting Started
@@ -24,6 +25,10 @@ To do so you can follow the instructions on https://github.com/HEP-PBSP/wmin-mod
 | Fig. 5 | | [reproduce_fig5](notebooks/generalisation.ipynb) | 
 
 ---
+
+## Reproducing results of section 3
+
+The [section 3](section3) folder contains the info for reproducing results from this section.
 
 ## Reproducing results of section 5
 
