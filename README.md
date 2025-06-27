@@ -29,9 +29,11 @@ To do so you can follow the instructions on https://github.com/HEP-PBSP/wmin-mod
 
 ## Reproducing results of section 3
 
-The [section 3](section3) folder contains the info for reproducing results from this section.
+The [section 3](section3) folder contains the info for reproducing results from section 3 of the paper.
 
 ## Reproducing results of section 5
+
+The [section 5](section5) folder contains the info for reproducing results from section 5 of the paper.
 
 1. Section 5.2: to reproduce these results follow the instructions [here](https://github.com/comane/NNPOD-wiki/tree/main/section5#validation-of-model-selection-strategy)
 2. Section 5.3: to reproduce these results follow the instructions [here](https://github.com/comane/NNPOD-wiki/tree/main/section5#uncertainty-quantification-in-the-data-region)
