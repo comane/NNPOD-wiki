@@ -40,7 +40,7 @@ For plotting purposes (eg Fig 7 of the paper) we provide the User with the follo
 To validate the reliability of PDF-predicted uncertainties in data space, we employ the
 normalised bias estimator recently introduced in https://arxiv.org/pdf/2503.17447. 
 This metric quantifies the actual mean square deviation of predictions from ground truth, expressed in units of the predicted
-standard deviation. We conduct `N_{\rm fit} = 25` closure tests, each utilizing a distinct, randomly
+standard deviation. We conduct $N_{\rm fit} = 25$ closure tests, each utilizing a distinct, randomly
 generated set of L1 data.
 
 The analytical and numerical cards for this section can be taken from above. However, we provide a separate running script
