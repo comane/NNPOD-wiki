@@ -17,11 +17,11 @@ To do so you can follow the instructions on https://github.com/HEP-PBSP/wmin-mod
 
 | Figure | Preview                              | Source Notebook                                 |
 |--------|--------------------------------------|-------------------------------------------------|
-| Fig. 2  | <img src="figures/figure2.png" width="200"/>        | [reproduce_fig2](Notebooks/sampled_mean_and_variance.ipynb) |
-| Fig. 3 left | <img src="figures/figure3_left.png" width="200" /> | [reproduce_fig3_l](Notebooks/completeness.ipynb) |
-| Fig. 3 right | <img src="figures/figure3_right.png" width="200" /> | [reproduce_fig3_r](Notebooks/generalisation.ipynb) |
-| Fig. 4 | | [reproduce_fig4](Notebooks/completeness.ipynb) |
-| Fig. 5 | | [reproduce_fig5](Notebooks/generalisation.ipynb) | 
+| Fig. 2  | <img src="figures/figure2.png" width="200"/>        | [reproduce_fig2](notebooks/sampled_mean_and_variance.ipynb) |
+| Fig. 3 left | <img src="figures/figure3_left.png" width="200" /> | [reproduce_fig3_l](notebooks/completeness.ipynb) |
+| Fig. 3 right | <img src="figures/figure3_right.png" width="200" /> | [reproduce_fig3_r](notebooks/generalisation.ipynb) |
+| Fig. 4 | | [reproduce_fig4](notebooks/completeness.ipynb) |
+| Fig. 5 | | [reproduce_fig5](notebooks/generalisation.ipynb) | 
 
 ---
 
