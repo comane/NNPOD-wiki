@@ -26,7 +26,7 @@ tests how closely the linear POD parametrisation approximates the original, gene
 In Figure 3 and 4 of the paper we show the performance of the POD basis.
 This [completeness notebook](../notebooks/completeness.ipynb) contains the material to reproduce these results.
 
-<img src="../figures/figure3_l.png" width="300"/> 
+<img src="../figures/figure3_left.png" width="300"/> 
 
 
 **Generalisation** is defined as the ability of the basis to
@@ -37,5 +37,5 @@ POD reduction should inherit this quality too.
 
 This [generalisation notebook](../notebooks/generalisation.ipynb) contains the material to reproduce these results.
 
-<img src="../figures/figure3_r.png" width="300"/> 
+<img src="../figures/figure3_right.png" width="300"/> 
 
