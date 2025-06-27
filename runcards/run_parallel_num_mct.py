@@ -1,5 +1,5 @@
 """
-Script to run multiple wmin fits on the same data with different model dimensions.
+This script allows to run multiple numerical wmin fits in parallel for different model dimensions and random seeds.
 """
 import os
 import pathlib
@@ -10,14 +10,15 @@ import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 FIT_NAME = "250612_disonly_L1"
-MAX_PARALLEL_JOBS = 10
-TEMPLATE_CARD = "template_numerical_L1.yaml"
+MAX_PARALLEL_JOBS = 50
+TEMPLATE_CARD = "template_numerical_L1_pos_integ.yaml"
 PRIOR_FITS_DIR = pathlib.Path("") # NOTE: set path to where analytical fits are stored
 
-PARAM_SCAN = range(38, 51)
+LEVEL1_SEEDS = range(1, 26)
+PARAM_SCAN = PARAM_SCAN = [38, 39, 70]
 
 PRIOR_FITS_NAMES = [
-    f"250612_analytic_L1_Nw_{nwgt}" for nwgt in PARAM_SCAN
+    f"250612_analytic_L1_fs_{fs}_Nw_{nwgt}" for nwgt in PARAM_SCAN for fs in LEVEL1_SEEDS
 ]
 
 # make sure that prior fits are available in colibri, create soft link of fit in fit_path
@@ -66,7 +67,7 @@ def run_fit_process(prior_fit_name):
     new_card["level_1_seed"] = level1_seed
     new_card["closuretest"]["filterseed"] = level1_seed  # needed for validphys reports
 
-    output_filename = f"{FIT_NAME}_Nw_{n_basis}.yaml"
+    output_filename = f"{FIT_NAME}_fs_{level1_seed}_Nw_{n_basis}.yaml"
 
     with open(output_filename, "w") as f:
         yaml.dump(new_card, f, default_flow_style=False)
