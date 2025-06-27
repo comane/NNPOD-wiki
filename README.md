@@ -5,12 +5,11 @@ This repository holds all code and instructions to reproduce the results and fig
 
 ## Getting Started
 
-1. **Clone the repo**  
-   ```bash
-   git clone git@github.com:comane/NNPOD-wiki.git
-   cd my-paper
+**Create the environment**
 
-2. **Create the environment**
+In order to use the runcards and notebooks of this repository, you need to first build the right conda environment.
+To do so you can follow the instructions on https://github.com/HEP-PBSP/wmin-model/
+  
 
 ---
 
@@ -25,6 +24,11 @@ This repository holds all code and instructions to reproduce the results and fig
 | Fig. 5 | | [reproduce_fig5](Notebooks/generalisation.ipynb) | 
 
 ---
+
+## Reproducing results of section 5
+
+1. Section 5.2: to reproduce these results follow the instructions here
+2. Section 5.3: to reproduce these results follow the instructions here
 
 
 
