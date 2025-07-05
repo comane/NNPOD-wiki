@@ -4,6 +4,9 @@ This repository holds all code and instructions to reproduce the numerical resul
 figures of “[My Paper Title](link-to-published-paper)”.
 
 
+<img src="figures/diagram.png" width="400">
+
+
 ## Getting Started
 
 **Create the environment**
