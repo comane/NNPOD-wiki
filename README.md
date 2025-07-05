@@ -4,7 +4,11 @@ This repository holds all code and instructions to reproduce the numerical resul
 figures of “[My Paper Title](link-to-published-paper)”.
 
 
-<img src="figures/diagram.png" width="400">
+<p align="center">
+  <img src="figures/diagram.png" width="400">
+  <br>
+  <em>Figure: Bayesian fitting workflow diagram</em>
+</p>
 
 
 ## Getting Started
