@@ -1,13 +1,12 @@
 # A linear PDF model for robust Bayesian inference
 
-This repository holds all code and instructions to reproduce the numerical results and 
-figures of “[My Paper Title](link-to-published-paper)”.
+> Code & instructions to reproduce all numerical results and figures from  “[My Paper Title](link-to-published-paper)”.
 
 
 <p align="center">
   <img src="figures/diagram.png" width="400">
   <br>
-  <em>Figure: Bayesian fitting workflow diagram</em>
+  <em>Bayesian fitting workflow diagram</em>
 </p>
 
 
@@ -20,18 +19,18 @@ To do so you can follow the instructions on https://github.com/HEP-PBSP/wmin-mod
   
 
 ---
+##  Quick Preview of Figures
 
-## Quick Preview of Figures
+| **Figure** |            **Preview**             |            **Source Notebook**             |
+|:----------:|:----------------------------------:|:------------------------------------------:|
+| **Fig. 2** | <img src="figures/figure2.png" width="200" alt="Fig. 2"/> | [reproduce_fig2](notebooks/sampled_mean_and_variance.ipynb) |
+| **Fig. 3 L** | <img src="figures/figure3_left.png" width="200" alt="Fig. 3 L"/> | [reproduce_fig3_l](notebooks/completeness.ipynb) |
+| **Fig. 3 R** | <img src="figures/figure3_right.png" width="200" alt="Fig. 3 R"/> | [reproduce_fig3_r](notebooks/generalisation.ipynb) |
+| **Fig. 4** |                                    | [reproduce_fig4](notebooks/completeness.ipynb)      |
+| **Fig. 5** |                                    | [reproduce_fig5](notebooks/generalisation.ipynb)    |
+| **Fig. 7** | <img src="figures/figure7.png" width="200" alt="Fig. 7"/> | [reproduce_fig7](section5)                          |
+| **Fig. 9** | <img src="figures/figure9.png" width="200" alt="Fig. 9"/> | [reproduce_fig9](section5)                          |
 
-| Figure | Preview                              | Source Notebook                                 |
-|--------|--------------------------------------|-------------------------------------------------|
-| Fig. 2  | <img src="figures/figure2.png" width="200"/>        | [reproduce_fig2](notebooks/sampled_mean_and_variance.ipynb) |
-| Fig. 3 left | <img src="figures/figure3_left.png" width="200" /> | [reproduce_fig3_l](notebooks/completeness.ipynb) |
-| Fig. 3 right | <img src="figures/figure3_right.png" width="200" /> | [reproduce_fig3_r](notebooks/generalisation.ipynb) |
-| Fig. 4 | | [reproduce_fig4](notebooks/completeness.ipynb) |
-| Fig. 5 | | [reproduce_fig5](notebooks/generalisation.ipynb) | 
-| Fig. 7 | <img src="figures/figure7.png" width="200" /> | [reproduce_fig7](section5) |
-| Fig. 9 | <img src="figures/figure9.png" width="200" /> | [reproduce_fig9](section5) |
 
 ---
 
@@ -48,5 +47,12 @@ The [section 5](section5) folder contains the info for reproducing results from 
 
 
 
+## Citing This Work
 
+If you use this repository or the results in your own research, please cite our paper as follows:
 
+### BibTeX
+
+```bibtex
+TODO
+```
