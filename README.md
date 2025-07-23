@@ -1,6 +1,6 @@
-# A linear PDF model for robust Bayesian inference
+# A linear PDF model for Bayesian inference
 
-> Code & instructions to reproduce all numerical results and figures from  “[My Paper Title](link-to-published-paper)”.
+> Code & instructions to reproduce all numerical results and figures from  “[A linear PDF model for Bayesian inference](...)”.
 
 
 <p align="center">
