@@ -1,6 +1,6 @@
 # A linear PDF model for Bayesian inference
 
-> Code & instructions to reproduce all numerical results and figures from  “[A linear PDF model for Bayesian inference](...)”.
+> Code & instructions to reproduce all numerical results and figures from  [paper](https://arxiv.org/pdf/2507.16913).
 
 
 <p align="center">
@@ -54,5 +54,13 @@ If you use this repository or the results in your own research, please cite our 
 ### BibTeX
 
 ```bibtex
-TODO
+@article{Costantini:2025wxp,
+    author = "Costantini, Mark N. and Mantani, Luca and Moore, James M. and Ubiali, Maria",
+    title = "{A linear PDF model for Bayesian inference}",
+    eprint = "2507.16913",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    month = "7",
+    year = "2025"
+}
 ```
